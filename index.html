@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courflix</title>
+  <link rel="stylesheet" href="./assets/style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/glide-3.4.1/dist/css/glide.core.min.css">
+  <!-- <link rel="stylesheet" href="./assets/glide-3.4.1/dist/css/glide.theme.min.css"> -->
+</head>
+
+<body>
+  <header class="header-wrapper">
+    <div class="brand"></div>
+    <nav class="navbar">
+      <a href="#hero" class="nav-item">Inicio</a>
+      <a href="#series" class="nav-item">Series</a>
+      <a href="#movies" class="nav-item">Películas</a>
+      <a href="#recently" class="nav-item">Agregados recientemente</a>
+      <a href="#myList" class="nav-item">Mi lista</a>
+    </nav>
+  </header>
+
+  <div class="hero-wrapper" id="hero">
+    <div class="information-content">
+      <div class="video-category">Original de COURFLIX</div>
+      <div class="video-title">BLACK SUMMER</div>
+      <div class="control-wrapper">
+        <a href="#" class="control-button">Reproducir</a>
+        <a href="#" class="control-button">+ Mi lista</a>
+      </div>
+      <div class="video-info">
+        <span class="info-title">Ve la temporada 1</span>
+        <span class="info-praragraph">Una ansiada luna de miel. Un asesinato terrible. Varios sospechosos. Si
+          sobreviven, serán unas vacaciones de ensueño.</span>
+      </div>
+    </div>
+  </div>
+
+  <section class="video-previews-wrapper" id="series">
+    <span class="category-title">Series</span>
+    <div class="glide carousel-wrapper" id="#carousel-wrapper">
+      <div class="glide__track" data-glide-el="track">
+        <div class="glide__slides previews-carrousel">
+          <div class="videos-preview otaku"></div>
+          <div class="videos-preview lucifer"></div>    
+          <div class="videos-preview theProtector"></div>
+          <div class="videos-preview loveDeathRobots"></div>   
+          <div class="videos-preview youWild"></div>
+          <div class="videos-preview silencio"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="watching-continue" id="watchingContinue">
+    <span class="category-title">Seguir viendo contenido de {Tu Nombre}</span>
+    <div class="glide carousel-wrapper">
+      <div class="glide__track" data-glide-el="track">
+        <div class="glide__slides previews-carrousel">
+          <div class="carrousel-item">
+            <div class="video-preview vikingos"></div>
+            <div class="progress-bar">
+              <div class="progress-loaded"></div>
+            </div>
+          </div>
+          <div class="carrousel-item">
+            <div class="video-preview dark"></div>
+            <div class="progress-bar">
+              <div class="progress-loaded"></div>
+            </div>
+          </div>
+          <div class="carrousel-item">
+            <div class="video-preview laOrdenSecreta"></div>
+            <div class="progress-bar">
+              <div class="progress-loaded"></div>
+            </div>
+          </div>
+          <div class="carrousel-item">
+            <div class="video-preview theEnd"></div>
+            <div class="progress-bar">
+              <div class="progress-loaded"></div>
+            </div>
+          </div>
+          <div class="carrousel-item">
+            <div class="video-preview silencio"></div>
+            <div class="progress-bar">
+              <div class="progress-loaded"></div>
+            </div>
+          </div>
+          <div class="carrousel-item">
+            <div class="video-preview dark"></div>
+            <div class="progress-bar">
+              <div class="progress-loaded"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="video-previews-wrapper" id="recently">
+    <span class="category-title">Agregados recientemente</span>
+    <div class="glide carousel-wrapper">
+      <div class="glide__track" data-glide-el="track">
+        <div class="glide__slides previews-carrousel">
+          <div class="videos-preview arronz"></div>
+          <div class="videos-preview flash"></div>
+          <div class="videos-preview otaku"></div>
+          <div class="videos-preview lucifer"></div>
+          <div class="videos-preview superCampeones"></div>
+          <div class="videos-preview laCasadePapel"></div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="./assets/glide-3.4.1/dist/glide.js"></script>
+  <script type="text/javascript" src="./assets/js/script.js"></script>
+
+</body>
+
+</html>

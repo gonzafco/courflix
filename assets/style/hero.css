@@ -1,0 +1,88 @@
+.hero-wrapper {
+  max-width: 100vw;
+  background: url("../image/series-img/series-previews/xl/blackSummer/blackSummer.png") no-repeat center center fixed;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 80px;
+}
+
+.hero-wrapper .information-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 500px;
+  margin-top: 200px;
+}
+
+.hero-wrapper .information-content .video-category {
+  font-weight: 700;
+  font-size: 1.75rem;
+  color: #ffffff;
+}
+
+.hero-wrapper .information-content .video-title {
+  font-weight: 700;
+  font-size: 7.5rem;
+  color: #ffffff;
+}
+
+.hero-wrapper .information-content .control-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero-wrapper .information-content .control-wrapper .control-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: none;
+  background: rgba(157, 151, 151, 0.5);
+  color: #ffffff;
+  border-radius: 10px;
+  width: 200px;
+  max-width: 200px;
+  height: 65px;
+  margin-right: 35px;
+  font-size: 1.3rem;
+}
+
+.hero-wrapper .information-content .video-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2rem;
+  margin: 30px 0px;
+}
+
+.hero-wrapper .information-content .video-info .info-title {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.hero-wrapper .information-content .video-info .info-praragraph {
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=hero.css.map */

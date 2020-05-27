@@ -1,0 +1,76 @@
+.video-previews-wrapper {
+  background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 100vw;
+  padding-top: 50px;
+  padding-left: 80px;
+}
+
+.video-previews-wrapper .category-title {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.video-previews-wrapper .carousel-wrapper .previews-carrousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.video-previews-wrapper .carousel-wrapper .previews-carrousel .videos-preview {
+  margin-bottom: 10px;
+  width: 351px;
+  height: 192px;
+}
+
+.video-previews-wrapper .carousel-wrapper .previews-carrousel .videos-preview.otaku {
+  background: url("../image/series-img/series-previews/xs/preview-1.jpg") left no-repeat;
+}
+
+.video-previews-wrapper .carousel-wrapper .previews-carrousel .videos-preview.lucifer {
+  background: url("../image/series-img/series-previews/xs/preview-2.jpg") left no-repeat;
+}
+
+.video-previews-wrapper .carousel-wrapper .previews-carrousel .videos-preview.theProtector {
+  background: url("../image/series-img/series-previews/xs/preview-3.jpg") left no-repeat;
+}
+
+.video-previews-wrapper .carousel-wrapper .previews-carrousel .videos-preview.loveDeathRobots {
+  background: url("../image/series-img/series-previews/xs/preview-4.jpg") left no-repeat;
+}
+
+.video-previews-wrapper .carousel-wrapper .previews-carrousel .videos-preview.youWild {
+  background: url("../image/series-img/series-previews/xs/preview-5.jpg") left no-repeat;
+}
+
+.video-previews-wrapper .carousel-wrapper .previews-carrousel .videos-preview.silencio {
+  background: url("../image/series-img/series-previews/xs/preview-6.jpg") left no-repeat;
+}
+
+.video-previews-wrapper .carousel-wrapper .previews-carrousel .videos-preview.arronz {
+  background: url("../image/series-img/series-previews/xs/preview-15.jpg") left no-repeat;
+}
+
+.video-previews-wrapper .carousel-wrapper .previews-carrousel .videos-preview.flash {
+  background: url("../image/series-img/series-previews/xs/preview-16.jpg") left no-repeat;
+}
+
+.video-previews-wrapper .carousel-wrapper .previews-carrousel .videos-preview.superCampeones {
+  background: url("../image/series-img/series-previews/xs/preview-14.jpg") left no-repeat;
+}
+
+.video-previews-wrapper .carousel-wrapper .previews-carrousel .videos-preview.laCasadePapel {
+  background: url("../image/series-img/series-previews/xs/preview-13.jpg") left no-repeat;
+}
+
+.video-previews-wrapper .carousel-wrapper .previews-carrousel .videos-preview.rickMorty {
+  background: url("../image/series-img/series-previews/xs/preview-12.jpg") left no-repeat;
+}
+/*# sourceMappingURL=video-previews.css.map */

@@ -1,0 +1,70 @@
+.video-previews-wrapper {
+  background: rgba(0, 0, 0, 1);
+  display: flex;
+  flex-direction: column;
+  max-width: 100vw;
+  padding-top: 50px;
+  padding-left: 80px;
+
+  .category-title {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .carousel-wrapper {
+    .previews-carrousel {
+      display: flex;
+      // margin-right: 0px;
+      // margin-left: -15px;
+      //overflow-x: hidden;
+
+      .videos-preview {
+        //margin-left: 15px;
+        margin-bottom: 10px;
+        //background: url("../image/series-img/series-previews/xs/preview-1.jpg") center no-repeat;
+        //background-size: cover;
+        width: 351px;
+        height: 192px;
+
+        &.otaku {
+          background: url("../image/series-img/series-previews/xs/preview-1.jpg") left no-repeat;
+        }
+
+        &.lucifer {
+          background: url("../image/series-img/series-previews/xs/preview-2.jpg") left no-repeat;
+        }
+
+        &.theProtector {
+          background: url("../image/series-img/series-previews/xs/preview-3.jpg") left no-repeat;
+        }
+
+        &.loveDeathRobots {
+          background: url("../image/series-img/series-previews/xs/preview-4.jpg") left no-repeat;
+        }
+
+        &.youWild {
+          background: url("../image/series-img/series-previews/xs/preview-5.jpg") left no-repeat;
+        }
+        &.silencio {
+          background: url("../image/series-img/series-previews/xs/preview-6.jpg") left no-repeat;
+        }
+        &.arronz {
+          background: url("../image/series-img/series-previews/xs/preview-15.jpg") left no-repeat;
+        }
+        &.flash {
+          background: url("../image/series-img/series-previews/xs/preview-16.jpg") left no-repeat;
+        }
+        &.superCampeones {
+          background: url("../image/series-img/series-previews/xs/preview-14.jpg") left no-repeat;
+        }
+        &.laCasadePapel {
+          background: url("../image/series-img/series-previews/xs/preview-13.jpg") left no-repeat;
+        }
+        &.rickMorty {
+          background: url("../image/series-img/series-previews/xs/preview-12.jpg") left no-repeat;
+        }
+      }
+    }
+  }
+}

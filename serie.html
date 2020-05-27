@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Breaking Bad</title>
+  <link rel="stylesheet" href="./assets/style/style.css">
+  <link rel="stylesheet" href="./assets/style/serie.css">
+  <link rel="stylesheet" href="./assets/style/serie-chapters.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/glide-3.4.1/dist/css/glide.core.min.css">
+</head>
+
+<body>
+  <header class="header-wrapper">
+    <div class="brand"></div>
+    <nav class="navbar">
+      <a href="#hero" class="nav-item">Inicio</a>
+      <a href="#series" class="nav-item">Series</a>
+      <a href="#movies" class="nav-item">Películas</a>
+      <a href="#recently" class="nav-item">Agregados recientemente</a>
+      <a href="#myList" class="nav-item">Mi lista</a>
+    </nav>
+  </header>
+
+  <div class="hero-wrapper" id="hero">
+    <div class="information-content">
+      <div class="serie-logo"></div>
+      <div class="serie-info">
+        <span class="percent">95% de coincidencia</span>
+        <span class="year">2016</span>
+        <span class="age">16+</span>
+        <span class="seasons">5 temporadas</span>
+      </div>
+      <div class="control-wrapper">
+        <a href="#" class="control-button play">Reproducir</a>
+        <a href="#" class="control-button">+ Mi lista</a>
+        <button class="btn like"><i class="far fa-thumbs-up"></i></button>
+        <button class="btn dislike"><i class="far fa-thumbs-down"></i></button>
+      </div>
+      <div class="video-info">
+        <span class="info-praragraph">Un profesor de Química de secundaria con cáncer terminal se asocia a un
+          exestudiante para asegurar el futuro de su familia al fabricar y vender metanfetamina.</span>
+      </div>
+    </div>
+  </div>
+
+  <section class="serie-chapters">
+    <select class="season-name" name="select">
+      <option value="value1" selected>Temporada 1</option>
+      <option value="value2">Temporada 2</option>
+      <option value="value3">Temporada 3</option>
+    </select>
+    <div class="glide chapters-wrapper">
+      <div class="glide__track" data-glide-el="track">
+        <div class="glide__slides">
+          <div class="chapter-item">
+            <div class="chapter-preview chapter-1"><span class="text">E1: El primero</span></div>
+            <div class="chapter-progress">
+              <div class="chapter-loaded"></div>
+            </div>
+          </div>
+          <div class="chapter-item">
+            <div class="chapter-preview chapter-2"><span class="text">E2: El segundo</span></div>
+            <div class="chapter-progress">
+              <div class="chapter-loaded"></div>
+            </div>
+          </div>
+          <div class="chapter-item">
+            <div class="chapter-preview chapter-3"><span class="text">E3: El tercero</span></div>
+            <div class="chapter-progress">
+              <div class="chapter-loaded"></div>
+            </div>
+          </div>
+          <div class="chapter-item">
+            <div class="chapter-preview chapter-4"><span class="text">E4: El cuarto</span></div>
+            <div class="chapter-progress">
+              <div class="chapter-loaded"></div>
+            </div>
+          </div>
+          <div class="chapter-item">
+            <div class="chapter-preview chapter-5"><span class="text">E5: El quinto</span></div>
+            <div class="chapter-progress">
+              <div class="chapter-loaded"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <script src="./assets/glide-3.4.1/dist/glide.js"></script>
+  <script src="./assets/js/script.js"></script>
+
+
+</body>
+
+</html>

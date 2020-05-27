@@ -1,0 +1,23 @@
+@import url("./reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("./header.css");
+@import url("./hero.css");
+@import url("./video-previews.css");
+@import url("./watching-continue.css");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+*:after, *:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a, select {
+  all: unset;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/*# sourceMappingURL=style.css.map */

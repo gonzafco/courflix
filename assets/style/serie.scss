@@ -1,0 +1,118 @@
+.hero-wrapper {
+  max-width: 100vw;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(255, 255, 255, 0) 100%),
+    url("../image/series-img/series-previews/xl/brekingbad/breakingbad04.png") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  padding: 0px 80px;
+
+  .information-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    margin-top: 50px;
+
+    .serie-logo {
+      background: url("../image/series-img/series-previews/xl/brekingbad/breakingbadlogo.png");
+      background-size: cover;
+      width: 345px;
+      height: 345px;
+    }
+
+    .serie-info {
+      margin-top: -20px;
+      margin-bottom: 40px;
+      font-size: 1.125rem;
+      display: flex;
+      width: 400px;
+      justify-content: space-between;
+      align-items: center;
+      .percent {
+        color: #009c04;
+      }
+      .year {
+        color: white;
+      }
+      .age {
+        color: white;
+        border: 1px solid #979797;
+        border-radius: 8px;
+        padding: 3px 12px;
+      }
+      .seasons {
+        color: white;
+        font-weight: bold;
+      }
+    }
+    .video-category {
+      font-weight: 700;
+      font-size: 1.75rem;
+      //font-size: 28px;
+      color: #ffffff;
+    }
+    .video-title {
+      font-weight: 700;
+      font-size: 7.5rem;
+      //font-size: 120px;
+      color: #ffffff;
+    }
+    .control-wrapper {
+      display: flex;
+      //margin-bottom: 42px;
+      .control-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        outline: none;
+        background: rgba(157, 151, 151, 0.5);
+        color: #ffffff;
+        border-radius: 10px;
+        width: 200px;
+        max-width: 200px;
+        height: 65px;
+        margin-right: 35px;
+        font-size: 1.3rem;
+        //font-size: 21px;
+
+        &.play {
+          background-color: red;
+        }
+      }
+
+      .btn {
+        border: 2px solid grey;
+        background: transparent;
+        border-radius: 100%;
+        padding: 10px 12px;
+        font-size: 36px;
+        color: grey;
+
+        outline: unset;
+
+        &.like {
+          margin-right: 15px;
+        }
+        &.disklike {
+        }
+      }
+    }
+    .video-info {
+      display: flex;
+      flex-direction: column;
+      color: white;
+      //font-size: 24px;
+      font-size: 1.5rem;
+      font-weight: 300;
+      line-height: 2rem;
+      margin: 30px 0px;
+      .info-title {
+        margin-bottom: 10px;
+        font-size: 1.5rem;
+      }
+      .info-praragraph {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
