@@ -12,6 +12,13 @@
   padding-left: 80px;
 }
 
+@media only screen and (max-width: 650px) {
+  .watching-continue {
+    padding-top: 50px;
+    padding-left: 20px;
+  }
+}
+
 .watching-continue .category-title {
   color: white;
   font-size: 1.5rem;
@@ -32,14 +39,11 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  width: 351px;
 }
 
 .watching-continue .carousel-wrapper .previews-carrousel .carrousel-item .video-preview {
   margin-bottom: 10px;
-  width: 351px;
   height: 192px;
 }
 
@@ -64,14 +68,16 @@
 }
 
 .watching-continue .carousel-wrapper .previews-carrousel .carrousel-item .progress-bar {
-  margin-left: 15px;
-  width: 200px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 280px;
   height: 5px;
   background-color: grey;
 }
 
 .watching-continue .carousel-wrapper .previews-carrousel .carrousel-item .progress-bar .progress-loaded {
-  width: 100px;
+  width: 180px;
   height: 5px;
   background-color: red;
 }

@@ -5,6 +5,11 @@
     display: flex;
     padding: 0px 80px;
 
+    @media only screen and (max-width: 650px)
+    {
+        padding:0px 30px;
+    }
+
     .information-content {
         display: flex;
         flex-direction: column;
@@ -16,12 +21,20 @@
             font-size: 1.75rem;
             //font-size: 28px;
             color: #ffffff;
+
+            @media only screen and (max-width: 650px) {
+                font-size: 1.5rem;
+            }
         }
         .video-title {
             font-weight: 700;
             font-size: 7.5rem;
             //font-size: 120px;
             color: #ffffff;
+
+            @media only screen and (max-width: 650px) {
+                font-size: 3rem;
+            }
         }
         .control-wrapper {
             display: flex;
@@ -40,6 +53,14 @@
                 margin-right: 35px;
                 font-size: 1.3rem;
                 //font-size: 21px;
+
+                @media only screen and (max-width: 650px) {
+                    width: 130px;
+                    height: 40px;
+                    font-size: 1rem;
+                    border-radius: 5px;
+                    margin-bottom: 10px;
+                }
             }
         }
         .video-info {
@@ -57,6 +78,10 @@
             }
             .info-praragraph {
                 font-size: 1.5rem;
+            }
+
+            @media only screen and (max-width: 650px) {
+                display: none;
             }
         }
     }

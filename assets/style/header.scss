@@ -1,7 +1,12 @@
 @mixin padding {
-    padding: 10px 80px;
+    @media only screen and (max-width: 1000px) {
+        padding: 10px 20px;
+    }
+    @media only screen and (min-width: 1001px) {
+        padding: 10px 80px;
+    }
+    //padding: 10px 80px;
 }
-
 
 .header-wrapper {
     display: flex;
@@ -13,6 +18,7 @@
     position: fixed;
     z-index: 9999;
     width: 100vw;
+
     .brand {
         background: url("../image/logo/logo.png");
         background-size: cover;
@@ -21,12 +27,55 @@
         margin-right: 90px;
     }
     .navbar {
+        display: inline-flex;
         .nav-item {
-            //font-family: 'Helvetica';
             color: #ffffff;
             font-size: 21px;
             font-weight: 700;
             margin-right: 25px;
+
+            @media only screen and (max-width: 1000px) {
+                margin-bottom: 25px;
+                margin-left: 15px;
+
+                &:hover{
+                    color:red;
+                }
+            }
+        }
+
+        @media only screen and (max-width: 1000px) {
+            position: absolute;
+            display: none;            
+            flex-direction: column;
+            height: calc(100vh - 85px);
+            top: 85px;
+            left: 0;
+            background: rgba(0, 0, 0, 1);
+            padding:20px 0px;
+
+            &.open{
+                display: inline-flex;
+            }
+        }
+    }
+    .menu {
+        display: none;
+        margin-right: 10px;
+        background: transparent;
+        padding: 0;
+        border: 0;
+        align-items: center;
+        font-size: 2.5em;
+        color: white;
+        width: 50px;
+
+        @media only screen and (max-width: 1000px) {
+            display: inline-flex;            
+        }
+
+        &.active{
+            color:red;
         }
     }
 }

@@ -10,7 +10,7 @@
   max-width: 100vw;
   padding-top: 10px;
   padding-left: 80px;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .serie-chapters .season-name {
@@ -32,10 +32,7 @@
 }
 
 .serie-chapters .chapters-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-items: baseline;
+  display: block;
 }
 
 .serie-chapters .chapters-wrapper .chapter-item {
@@ -53,7 +50,7 @@
 
 .serie-chapters .chapters-wrapper .chapter-item .chapter-preview {
   position: relative;
-  width: 341px;
+  width: 351px;
   height: 192px;
 }
 

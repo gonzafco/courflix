@@ -9,6 +9,13 @@
   padding: 0px 80px;
 }
 
+@media only screen and (max-width: 650px) {
+  .hero-wrapper {
+    padding-top: 50px;
+    padding-left: 20px;
+  }
+}
+
 .hero-wrapper .information-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -31,6 +38,12 @@
   height: 345px;
 }
 
+@media only screen and (max-width: 650px) {
+  .hero-wrapper .information-content .serie-logo {
+    display: none;
+  }
+}
+
 .hero-wrapper .information-content .serie-info {
   margin-top: -20px;
   margin-bottom: 40px;
@@ -47,8 +60,20 @@
           align-items: center;
 }
 
+@media only screen and (max-width: 650px) {
+  .hero-wrapper .information-content .serie-info {
+    display: none;
+  }
+}
+
 .hero-wrapper .information-content .serie-info .percent {
   color: #009c04;
+}
+
+@media only screen and (max-width: 650px) {
+  .hero-wrapper .information-content .serie-info .percent {
+    display: none;
+  }
 }
 
 .hero-wrapper .information-content .serie-info .year {
@@ -106,6 +131,19 @@
   font-size: 1.3rem;
 }
 
+@media only screen and (max-width: 650px) {
+  .hero-wrapper .information-content .control-wrapper .control-button {
+    width: 130px;
+    height: 40px;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .hero-wrapper .information-content .control-wrapper .control-button.list {
+    display: none;
+  }
+}
+
 .hero-wrapper .information-content .control-wrapper .control-button.play {
   background-color: red;
 }
@@ -124,6 +162,12 @@
   margin-right: 15px;
 }
 
+@media only screen and (max-width: 650px) {
+  .hero-wrapper .information-content .control-wrapper .btn {
+    display: none;
+  }
+}
+
 .hero-wrapper .information-content .video-info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -137,6 +181,12 @@
   font-weight: 300;
   line-height: 2rem;
   margin: 30px 0px;
+}
+
+@media only screen and (max-width: 650px) {
+  .hero-wrapper .information-content .video-info {
+    display: none;
+  }
 }
 
 .hero-wrapper .information-content .video-info .info-title {
