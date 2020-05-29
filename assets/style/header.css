@@ -54,7 +54,8 @@
     margin-left: 15px;
   }
   .header-wrapper .navbar .nav-item:hover {
-    color: red;
+    -webkit-columns: #ff0000;
+            columns: #ff0000;
   }
 }
 
@@ -89,7 +90,7 @@
       -ms-flex-align: center;
           align-items: center;
   font-size: 2.5em;
-  color: white;
+  color: #ffffff;
   width: 50px;
 }
 
@@ -102,6 +103,6 @@
 }
 
 .header-wrapper .menu.active {
-  color: red;
+  color: #ff0000;
 }
 /*# sourceMappingURL=header.css.map */

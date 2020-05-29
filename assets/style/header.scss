@@ -39,7 +39,7 @@
                 margin-left: 15px;
 
                 &:hover{
-                    color:red;
+                    columns: #ff0000;
                 }
             }
         }
@@ -67,7 +67,7 @@
         border: 0;
         align-items: center;
         font-size: 2.5em;
-        color: white;
+        color: #ffffff;
         width: 50px;
 
         @media only screen and (max-width: 1000px) {
@@ -75,7 +75,7 @@
         }
 
         &.active{
-            color:red;
+            color:#ff0000;
         }
     }
 }
