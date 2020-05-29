@@ -26,21 +26,3 @@ Object.values(carousels).map(carousel => {
     });
     slider.mount();
 });
-
-const chaptersWrapper = document.querySelectorAll(".chapters-wrapper");
-Object.values(chaptersWrapper).map(carousel => {
-    const slider = new Glide(carousel, {
-        type: 'slider',
-        startAt: 0,
-        perView:5,
-        breakpoints: {
-            1500: { perView: 4 },
-            1100: { perView: 3},
-            740: { perView: 2 },
-            450: { perView: 1 }
-        },
-        gap: 5
-    });
-    slider.mount();
-});
-// 

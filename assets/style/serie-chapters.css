@@ -13,87 +13,83 @@
   margin-left: 0;
 }
 
-.serie-chapters .season-name {
-  color: white;
-  font-size: 1.5rem;
-  margin-bottom: 20px;
-  width: 250px;
-  margin-bottom: 1em;
-  padding: 0.25em;
-  border: 0;
-  border-bottom: 2px solid currentcolor;
-  border-radius: 0;
-  background-color: black;
+@media only screen and (max-width: 650px) {
+  .serie-chapters {
+    padding-left: 20px;
+  }
 }
 
-.serie-chapters .season-name:focus, .serie-chapters .season-name:active {
-  outline: 0;
-  border-bottom-color: red;
-}
-
-.serie-chapters .chapters-wrapper {
-  display: block;
-}
-
-.serie-chapters .chapters-wrapper .chapter-item {
+.carousel-wrapper .previews-carrousel {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
-.serie-chapters .chapters-wrapper .chapter-item .chapter-preview {
-  position: relative;
+@media only screen and (max-width: 650px) {
+  .carousel-wrapper .previews-carrousel {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.carousel-wrapper .previews-carrousel .carrousel-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 351px;
+}
+
+.carousel-wrapper .previews-carrousel .carrousel-item .video-preview {
+  margin-bottom: 10px;
   height: 192px;
 }
 
-.serie-chapters .chapters-wrapper .chapter-item .chapter-preview .text {
-  position: absolute;
-  top: 5px;
-  padding-left: 10px;
-  width: 100%;
-  background: rgba(19, 19, 19, 0.8);
-  text-align: left;
-  color: white;
-}
-
-.serie-chapters .chapters-wrapper .chapter-item .chapter-preview.chapter-1 {
+.carousel-wrapper .previews-carrousel .carrousel-item .video-preview.chapter-1 {
   background: url("../image/series-img/series-previews/xs/brakingbad/1.jpg") left no-repeat;
 }
 
-.serie-chapters .chapters-wrapper .chapter-item .chapter-preview.chapter-2 {
+.carousel-wrapper .previews-carrousel .carrousel-item .video-preview.chapter-2 {
   background: url("../image/series-img/series-previews/xs/brakingbad/2.jpg") left no-repeat;
 }
 
-.serie-chapters .chapters-wrapper .chapter-item .chapter-preview.chapter-3 {
+.carousel-wrapper .previews-carrousel .carrousel-item .video-preview.chapter-3 {
   background: url("../image/series-img/series-previews/xs/brakingbad/3.jpg") left no-repeat;
 }
 
-.serie-chapters .chapters-wrapper .chapter-item .chapter-preview.chapter-4 {
+.carousel-wrapper .previews-carrousel .carrousel-item .video-preview.chapter-4 {
   background: url("../image/series-img/series-previews/xs/brakingbad/4.jpg") left no-repeat;
 }
 
-.serie-chapters .chapters-wrapper .chapter-item .chapter-preview.chapter-5 {
+.carousel-wrapper .previews-carrousel .carrousel-item .video-preview.chapter-5 {
   background: url("../image/series-img/series-previews/xs/brakingbad/5.jpg") left no-repeat;
 }
 
-.serie-chapters .chapters-wrapper .chapter-item .chapter-progress {
-  margin-top: 10px;
-  width: 200px;
+.carousel-wrapper .previews-carrousel .carrousel-item .progress-bar {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 280px;
   height: 5px;
   background-color: grey;
 }
 
-.serie-chapters .chapters-wrapper .chapter-item .chapter-progress .chapter-loaded {
-  width: 100px;
+@media only screen and (max-width: 650px) {
+  .carousel-wrapper .previews-carrousel .carrousel-item .progress-bar {
+    width: 150px;
+  }
+}
+
+.carousel-wrapper .previews-carrousel .carrousel-item .progress-bar .progress-loaded {
+  width: 200px;
   height: 5px;
   background-color: red;
+}
+
+@media only screen and (max-width: 650px) {
+  .carousel-wrapper .previews-carrousel .carrousel-item .progress-bar .progress-loaded {
+    width: 110px;
+  }
 }
 /*# sourceMappingURL=serie-chapters.css.map */

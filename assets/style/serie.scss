@@ -6,8 +6,9 @@
   display: flex;
   padding: 0px 80px;
   @media only screen and (max-width: 650px) {
-    padding-top: 50px;
+    padding-top: 150px;
     padding-left: 20px;
+
   }
 
   .information-content {
@@ -15,7 +16,14 @@
     flex-direction: column;
     justify-content: center;
     max-width: 600px;
-    margin-top: 50px;
+    margin-top: 10px;
+
+    .serie-name{      
+      color: #FFFFFF;
+      padding-bottom: 30px;
+      font-size: 2rem;
+      
+    }
 
     .serie-logo {
       background: url("../image/series-img/series-previews/xl/brekingbad/breakingbadlogo.png");
@@ -38,8 +46,11 @@
       align-items: center;
 
       @media only screen and (max-width: 650px) {
-        display: none;
+        max-width: 250px;
+        margin-bottom: 10px;
       }
+
+
       .percent {
         color: #009c04;
 
@@ -75,7 +86,7 @@
     }
     .control-wrapper {
       display: flex;
-      //margin-bottom: 42px;
+      margin-bottom: 30px;
       .control-button {
         display: flex;
         justify-content: center;
