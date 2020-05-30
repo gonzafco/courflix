@@ -31,9 +31,9 @@
       }
       .video-preview {
         width: calc(50% - 20px);
+        max-width: calc(50% - 20px);
         margin-right: 10px;
         &.chapter-1 {
-          background-size: cover;
           background:url("../image/series-img/series-previews/xs/brakingbad/1.jpg") center;// no-repeat;
         }
         &.chapter-2 {
@@ -51,6 +51,7 @@
       }
       .chapter-info {
         width: 50%;
+        max-width: 50%;
         display: none;
         flex-direction: column;
         .chapter-title {
