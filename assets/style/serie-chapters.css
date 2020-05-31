@@ -66,23 +66,24 @@
 }
 
 .carousel-season .previews-carrousel .carrousel-item .video-preview.chapter-1 {
+  background-size: cover;
   background: url("../image/series-img/series-previews/xs/brakingbad/1.jpg") center;
 }
 
 .carousel-season .previews-carrousel .carrousel-item .video-preview.chapter-2 {
-  background: url("../image/series-img/series-previews/xs/brakingbad/2.jpg") left no-repeat;
+  background: url("../image/series-img/series-previews/xs/brakingbad/2.jpg") center;
 }
 
 .carousel-season .previews-carrousel .carrousel-item .video-preview.chapter-3 {
-  background: url("../image/series-img/series-previews/xs/brakingbad/3.jpg") left no-repeat;
+  background: url("../image/series-img/series-previews/xs/brakingbad/3.jpg") center;
 }
 
 .carousel-season .previews-carrousel .carrousel-item .video-preview.chapter-4 {
-  background: url("../image/series-img/series-previews/xs/brakingbad/4.jpg") left no-repeat;
+  background: url("../image/series-img/series-previews/xs/brakingbad/4.jpg") center;
 }
 
 .carousel-season .previews-carrousel .carrousel-item .video-preview.chapter-5 {
-  background: url("../image/series-img/series-previews/xs/brakingbad/5.jpg") left no-repeat;
+  background: url("../image/series-img/series-previews/xs/brakingbad/5.jpg") center;
 }
 
 .carousel-season .previews-carrousel .carrousel-item .chapter-info {

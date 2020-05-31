@@ -39,19 +39,20 @@
           height: 180px;
         }
         &.chapter-1 {
-          background: url("../image/series-img/series-previews/xs/brakingbad/1.jpg") center; // no-repeat;
+          background-size: cover;          
+          background: url("../image/series-img/series-previews/xs/brakingbad/1.jpg") center ; // no-repeat;
         }
         &.chapter-2 {
-          background: url("../image/series-img/series-previews/xs/brakingbad/2.jpg") left no-repeat;
+          background: url("../image/series-img/series-previews/xs/brakingbad/2.jpg") center;
         }
         &.chapter-3 {
-          background: url("../image/series-img/series-previews/xs/brakingbad/3.jpg") left no-repeat;
+          background: url("../image/series-img/series-previews/xs/brakingbad/3.jpg") center;
         }
         &.chapter-4 {
-          background: url("../image/series-img/series-previews/xs/brakingbad/4.jpg") left no-repeat;
+          background: url("../image/series-img/series-previews/xs/brakingbad/4.jpg") center;
         }
         &.chapter-5 {
-          background: url("../image/series-img/series-previews/xs/brakingbad/5.jpg") left no-repeat;
+          background: url("../image/series-img/series-previews/xs/brakingbad/5.jpg") center;
         }
       }
       .chapter-info {

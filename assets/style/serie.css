@@ -32,9 +32,18 @@
 }
 
 .hero-wrapper .information-content .serie-name {
+  display: none;
   color: #FFFFFF;
   padding-bottom: 30px;
   font-size: 2rem;
+}
+
+@media only screen and (max-width: 650px) {
+  .hero-wrapper .information-content .serie-name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .hero-wrapper .information-content .serie-logo {
