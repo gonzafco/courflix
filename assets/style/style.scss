@@ -14,8 +14,12 @@
     box-sizing: border-box;
   }
 }
-a,select {
+select {
   all: unset;
+}
+
+a{
+  text-decoration: none;
 }
 
 html{
