@@ -22,19 +22,24 @@
 
     .carrousel-item {
       display: flex;
-      flex-direction: column;
 
       @media only screen and (max-width: 650px) {
         flex-direction: row;
         margin-bottom: 10px;
-        
       }
       .video-preview {
-        width: calc(50% - 20px);
-        max-width: calc(50% - 20px);
-        margin-right: 10px;
+        @media only screen and (max-width: 650px) {
+          width: calc(50% - 20px);
+          max-width: calc(50% - 20px);
+          margin-right: 10px;
+        }
+
+        @media only screen and (min-width: 651px) {
+          width: 320px;
+          height: 180px;
+        }
         &.chapter-1 {
-          background:url("../image/series-img/series-previews/xs/brakingbad/1.jpg") center;// no-repeat;
+          background: url("../image/series-img/series-previews/xs/brakingbad/1.jpg") center; // no-repeat;
         }
         &.chapter-2 {
           background: url("../image/series-img/series-previews/xs/brakingbad/2.jpg") left no-repeat;

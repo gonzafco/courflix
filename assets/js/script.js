@@ -22,13 +22,20 @@ Object.values(carousels).map(carousel => {
             1500: { perView: 4 },
             1100: { perView: 3 },
             740: { perView: 2 },
-            450: { perView: 1}
+            450: { perView: 1 }
         },
-        gap: 10       
+        gap: 10
     });
     slider.mount();
 });
 
+
+// if (window.innerWidth < 400 && document.URL.includes("serie")) {
+//     const glideSlides = document.querySelectorAll(".glide__slides");
+//     Object.values(glideSlides).map(gSlides => {
+//         gSlides.classList.remove("glide__slides")
+//     })
+// }
 const carouselSeason = document.querySelectorAll(".carousel-season");
 Object.values(carouselSeason).map(carouselS => {
     const slider = new Glide(carouselS, {
@@ -36,13 +43,14 @@ Object.values(carouselSeason).map(carouselS => {
         startAt: 0,
         perView: 5,
         breakpoints: {
-            1500: { perView: 3 },
+            1500: { perView: 4 },
             1100: { perView: 3 },
             740: { perView: 2 },
-            450: { perView: 0}
+            450: { perView: 0 }
         },
-        gap: 0,
-       
+        gap: 10,
+
     });
     slider.mount();
+
 });

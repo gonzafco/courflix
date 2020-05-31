@@ -38,10 +38,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 @media only screen and (max-width: 650px) {
@@ -54,10 +50,19 @@
   }
 }
 
-.carousel-season .previews-carrousel .carrousel-item .video-preview {
-  width: calc(50% - 20px);
-  max-width: calc(50% - 20px);
-  margin-right: 10px;
+@media only screen and (max-width: 650px) {
+  .carousel-season .previews-carrousel .carrousel-item .video-preview {
+    width: calc(50% - 20px);
+    max-width: calc(50% - 20px);
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 651px) {
+  .carousel-season .previews-carrousel .carrousel-item .video-preview {
+    width: 320px;
+    height: 180px;
+  }
 }
 
 .carousel-season .previews-carrousel .carrousel-item .video-preview.chapter-1 {
